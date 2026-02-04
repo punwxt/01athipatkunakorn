@@ -48,53 +48,70 @@ html, body {
 
 .hotspot {
     position: absolute;
-    border: 1px solid red; /* ปลดคอมเมนต์บรรทัดนี้เพื่อดูตำแหน่งตอนจัดวาง */
+    /*border: 1px solid red;  ปลดคอมเมนต์บรรทัดนี้เพื่อดูตำแหน่งตอนจัดวาง */
     cursor: pointer;
 }
 
 .first {
-    top: 60%; 
-    left: 70%; 
-    width: 14%; 
-    height: 25%;
+    top: 53.5%; 
+    left: 35%; 
+    width: 33.5%; 
+    height: 8.5%;
+    border-radius: 35%;
 }
 
 .frameone {
-    top: 53%; 
-    left: 9%; 
-    width: 14%; 
-    height: 25%;
+    top: 76%; 
+    left: 8%; 
+    width: 16%; 
+    height: 15%;
 }
 
 .frametwo {
-    top: 16.5%; 
-    left: 14.5%; 
+    top: 57%; 
+    left: 14%; 
     width: 16%; 
-    height: 31%;
+    height: 15%;
     border-radius: 50%; /* ใช้ถ้าเป็นกรอบวงรี */
 }
 
 .framethree {
-    top: 9%; 
-    left: 37.5%; 
-    width: 23.5%; 
-    height: 20%;
+    top: 49%; 
+    left: 38.5%; 
+    width: 25%; 
+    height: 11%;
 }
 
 .framefour {
-    top: 15%; 
-    left: 68%; 
+    top: 57%; 
+    left: 71.5%; 
     width: 16%; 
-    height: 29%;
-    border-radius: 51%; /* ใช้ถ้าเป็นกรอบวงรี */
+    height: 14.5%;
+    border-radius: 50%;
 }
 
 .framefive {
-    top: 48%; 
-    left: 77.5%; 
-    width: 16%; 
-    height: 31%;
-    border-radius: 51%; /* ใช้ถ้าเป็นกรอบวงรี */
+    top: 76%; 
+    left: 78%; 
+    width: 15.5%; 
+    height: 15%;
+    border-radius: 50%;
+}
+
+.main-mem {
+    top: 85%; 
+    left: 38.5%; 
+    width: 25%; 
+    height: 6.5%;
+    border-radius: 30%;
+}
+
+.mem-main {
+    top: 96.5%; 
+    left: 80.5%; 
+    width: 13.5%; 
+    height: 2.7%;
+    border-radius: 40%;
 }
 
 .container {
@@ -118,10 +135,53 @@ html, body {
     object-fit: contain;
 }
 
-.poli {
-    top: 77%;
-    left: 70.5%; 
-    width: 20%; 
-    height: 10%;
-    border-radius: 30%;
+.poli-mem{
+    top: 94.7%;
+    left: 77%; 
+    width: 18%; 
+    height: 2%;
+    border-radius: 50%;
+}
+
+.poli-main {
+    top: 97%;
+    left: 77%; 
+    width: 18%; 
+    height: 2%;
+    border-radius: 50%;
+}
+
+.nam {
+    top: 19%;
+    left: 42%; 
+    width: 10%; 
+    height: 1%;
+}
+
+.nam2 {
+    top: 20.2%;
+    left: 42%; 
+    width: 14%; 
+    height: 1%;
+}
+
+.tawan {
+    top: 50.1%;
+    left: 39.5%; 
+    width: 7%; 
+    height: 1%;
+}
+
+.tawan2 {
+    top: 51.4%;
+    left: 39.5%; 
+    width: 13%; 
+    height: 1%;
+}
+
+.clean {
+    top: 86%;
+    left: 40.5%; 
+    width: 13%; 
+    height: 1.2%;
 }
